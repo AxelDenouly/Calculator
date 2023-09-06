@@ -73,7 +73,7 @@ function flushOperation(intBuffer) {
         runningTotal *= intBuffer;
     } else if(previousOperator === '÷') {
         if (intBuffer === 0) {
-            runningTotal = "Erreur";
+            runningTotal = "Error";
         } else {
         runningTotal /= intBuffer;
         }
